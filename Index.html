@@ -1,61 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Amar G – Data Engineer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amar G - Data Engineer Portfolio</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f7f9;
-      color: #333;
-      line-height: 1.5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
     }
     header {
-      background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
-      color: white;
       text-align: center;
-      padding: 2rem 1rem;
+      padding: 2rem 1rem 1rem;
     }
-    header h1 {
-      margin: 0.5rem 0 0.2rem;
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #1f6feb;
+    }
+    h1 {
       font-size: 2rem;
+      margin: 0.5rem 0 0;
     }
-    header p {
-      margin: 0.3rem 0;
+    h2 {
+      border-bottom: 2px solid #1f6feb;
+      padding-bottom: 0.25rem;
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: #1f6feb;
+    }
+    p {
+      margin: 0.5rem 0;
     }
     .links a {
       color: #1f6feb;
       text-decoration: none;
       margin: 0 0.75rem;
+      font-weight: bold;
     }
     .container {
       max-width: 800px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
-    section {
-      margin-bottom: 2rem;
-    }
-    section h2 {
-      border-bottom: 2px solid #1f6feb;
-      padding-bottom: 0.3rem;
-      margin-bottom: 1rem;
-      color: #1f6feb;
-    }
     ul {
-      padding-left: 1.2rem;
+      padding-left: 1.25rem;
     }
     li {
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.4rem;
     }
     footer {
       text-align: center;
       padding: 1rem 0;
       font-size: 0.9rem;
-      background: #203a43;
-      color: #fff;
+      background: #0f2027;
+      color: #bbb;
+      margin-top: 2rem;
     }
     a {
       color: #1f6feb;
@@ -65,8 +68,9 @@
 <body>
 
   <header>
+    <img src="your-photo.jpg" alt="Amar G">
     <h1>Amar G</h1>
-    <p>Data Engineer | Remote / Hybrid / Open to Relocation</p>
+    <p>Senior Data Engineer | Open to Remote / Hybrid / Onsite</p>
     <p>Email: <a href="mailto:gamar309922@gmail.com">gamar309922@gmail.com</a> | Phone: (469) 202-6323</p>
     <div class="links">
       <a href="https://www.linkedin.com/in/amar-g-67a345b9/" target="_blank">LinkedIn</a>
@@ -74,80 +78,67 @@
   </header>
 
   <div class="container">
-    <section id="summary">
+    <section>
       <h2>Professional Summary</h2>
-      <p>Data Engineer with 6+ years of experience designing, developing, and deploying end-to-end data pipelines in cloud and hybrid environments. Skilled in building robust ETL/ELT systems using ADF, PySpark, dbt, and Airflow, and managing structured, semi-structured, and streaming data sources. Adept in implementing medallion architecture, Delta Lake optimizations (Z-ordering, Time Travel), and building secure data lakes and marts with governance tools such as Unity Catalog and Azure Purview.</p>
-      <p>Proficient in SQL, Python, and Java with deep experience across Snowflake, Redshift, Delta Lake, and BigQuery. Developed Power BI and Looker dashboards for operational reporting and executive insights. Experienced in CI/CD, infrastructure-as-code, and DevOps workflows using GitHub Actions, Terraform, and Docker. Successfully integrated data from REST APIs, Kafka, Event Hubs, and SFTP sources, with a focus on scalability, reliability, and compliance.</p>
-      <p>A collaborative team player with strong problem-solving skills and a focus on delivering measurable business impact through data-driven solutions.</p>
+      <p>Senior Data Engineer with 6+ years of experience in building scalable ETL pipelines and cloud-native data solutions. Expertise in ADF, Databricks, Snowflake, PySpark, and Airflow. Proven ability to deliver business insights through Power BI and secure data governance using Unity Catalog and Azure Purview.</p>
     </section>
 
-    <section id="skills">
+    <section>
       <h2>Technical Skills</h2>
       <ul>
-        <li><strong>Cloud Platforms:</strong> AWS (Glue, Redshift), Azure (ADF, Synapse, Databricks, Purview), GCP (BigQuery, Pub/Sub)</li>
-        <li><strong>Languages:</strong> Python, SQL, Java, Shell, C++</li>
-        <li><strong>ETL Tools:</strong> PySpark, dbt, SSIS, Informatica, Talend, Azure Dataflows</li>
-        <li><strong>Data Modeling:</strong> Star/Snowflake Schema, Medallion Architecture, SCD Type 2</li>
-        <li><strong>Data Warehouses:</strong> Snowflake, Redshift, Delta Lake</li>
-        <li><strong>DevOps:</strong> GitHub Actions, Jenkins, Docker, Terraform, Kubernetes</li>
+        <li><strong>Cloud:</strong> Azure (ADF, Synapse, Databricks), AWS (Glue, Redshift), GCP (BigQuery)</li>
+        <li><strong>ETL:</strong> PySpark, SQL, dbt, Airflow, Dataflows</li>
+        <li><strong>Modeling:</strong> Star/Snowflake Schema, SCD Type 2, Medallion Architecture</li>
+        <li><strong>DevOps:</strong> GitHub Actions, Docker, Terraform</li>
         <li><strong>Visualization:</strong> Power BI, Tableau, Looker</li>
-        <li><strong>Streaming:</strong> Kafka, Event Hubs</li>
-        <li><strong>Governance & QA:</strong> Great Expectations, Unity Catalog, Azure Purview, HIPAA</li>
-        <li><strong>Formats:</strong> Parquet, Avro, JSON, ORC</li>
+        <li><strong>Governance:</strong> Unity Catalog, Purview, Great Expectations, HIPAA</li>
       </ul>
     </section>
 
-    <section id="experience">
-      <h2>Professional Experience</h2>
-      
-      <h3>Cardinal Health | Data Engineer | Jul 2024 – Present | Remote</h3>
+    <section>
+      <h2>Experience</h2>
+      <h3>Cardinal Health – Data Engineer (Jul 2024 – Present)</h3>
       <ul>
-        <li>Built scalable ADF and PySpark pipelines for structured and semi-structured data ingestion</li>
-        <li>Implemented medallion architecture, Z-ordering, and Time Travel in Delta Lake</li>
-        <li>Modeled SCD Type 2 dimensions using dbt in Snowflake for analytics marts</li>
-        <li>Developed CI/CD workflows with GitHub and Terraform for Airflow orchestration</li>
-        <li>Published Power BI dashboards for 50+ stakeholders in supply chain</li>
-        <li>Integrated Kafka, APIs, and Event Hubs for real-time data processing</li>
-        <li>Validated pipelines with Great Expectations and mapped lineage using Purview</li>
+        <li>Developed scalable ETL pipelines using ADF, Databricks, and PySpark</li>
+        <li>Implemented medallion architecture with Delta Lake and SCD Type 2 logic</li>
+        <li>Built curated data marts in Snowflake and automated ingestion from APIs</li>
+        <li>Integrated Power BI dashboards with operational datasets</li>
+        <li>Ensured HIPAA-compliance and data security with Unity Catalog</li>
+        <li>Reduced pipeline cost and runtime by 30% with query optimization</li>
+        <li>Collaborated with business teams to define KPIs and data models</li>
+        <li>Monitored job health with Azure Monitor and custom alerts</li>
+        <li>Orchestrated workflows using Airflow and Azure DevOps CI/CD</li>
+        <li>Published technical documentation and presented sprint demos</li>
       </ul>
 
-      <h3>Capgemini | Data Engineer | Sep 2019 – Dec 2022 | Hyderabad, India</h3>
+      <h3>Capgemini – Data Engineer (Sep 2019 – Dec 2022)</h3>
       <ul>
-        <li>Built PySpark and AWS Glue pipelines processing 10M+ daily records</li>
-        <li>Modeled warehouse solutions in Snowflake and Redshift with clustering</li>
-        <li>Designed Power BI dashboards improving operations insight by 30%</li>
-        <li>Developed schema enforcement and data contracts with APIs and validation rules</li>
-        <li>Reduced ETL downtime by 25% via proactive CloudWatch monitoring</li>
+        <li>Built PySpark and AWS Glue pipelines for structured/unstructured data</li>
+        <li>Designed Redshift and Snowflake data warehouses for KPIs and analytics</li>
+        <li>Created Power BI dashboards for executive reporting</li>
+        <li>Authored validation scripts for QA automation</li>
+        <li>Improved pipeline performance and reliability</li>
       </ul>
 
-      <h3>Fujitsu | Associate Data Engineer | May 2017 – Sep 2019 | Hyderabad, India</h3>
+      <h3>Fujitsu – Associate Data Engineer (May 2017 – Sep 2019)</h3>
       <ul>
-        <li>Developed HR and finance data pipelines using PySpark and Python</li>
-        <li>Created Tableau and Power BI dashboards with star-schema models</li>
-        <li>Automated ML model scoring jobs using Flask APIs and Airflow</li>
-        <li>Executed text analytics on feedback data using NLP techniques</li>
-        <li>Implemented data quality checks and migrated reports to Redshift</li>
+        <li>Developed ETL pipelines for HR and financial datasets</li>
+        <li>Built dashboards in Tableau and Excel for sentiment analysis</li>
+        <li>Deployed Flask APIs for model scoring in Docker containers</li>
+        <li>Used NLP techniques (TF-IDF, Word2Vec) for text processing</li>
+        <li>Automated retraining and monitoring using Airflow</li>
       </ul>
     </section>
 
-    <section id="education">
+    <section>
       <h2>Education</h2>
-      <p><strong>Master of Science in Business Analytics</strong><br>
-      University of New Haven, CT – May 2024</p>
-      <p><strong>B.Tech in Electronics and Communication Engineering</strong><br>
-      Vignan University, India – Apr 2017</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:gamar309922@gmail.com">gamar309922@gmail.com</a><br>
-      Phone: (469) 202‑6323<br>
-      LinkedIn: <a href="https://www.linkedin.com/in/amar-g-67a345b9/" target="_blank">linkedin.com/in/amar-g-67a345b9/</a></p>
+      <p><strong>Master of Science in Business Analytics</strong><br>University of New Haven, CT – May 2024</p>
+      <p><strong>B.Tech in Electronics & Communication Engineering</strong><br>Vignan University, India – Apr 2017</p>
     </section>
   </div>
 
   <footer>
-    © 2025 Amar G – Data Engineer Portfolio
+    © 2025 Amar G – Data Engineer Portfolio
   </footer>
 
 </body>
